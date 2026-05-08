@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0c4a6e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#064e3b;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="circleGradient" cx="50%" cy="40%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#0284c7;stop-opacity:0.1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Gradient overlay -->
+  <circle cx="200" cy="200" r="200" fill="url(#circleGradient)"/>
+  
+  <!-- Profile circle background -->
+  <circle cx="200" cy="200" r="160" fill="#0f172a" opacity="0.8"/>
+  
+  <!-- Glow effect -->
+  <circle cx="200" cy="200" r="160" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.3"/>
+  <circle cx="200" cy="200" r="165" fill="none" stroke="#06b6d4" stroke-width="1" opacity="0.2"/>
+  
+  <!-- Simple avatar representation -->
+  <g>
+    <!-- Head -->
+    <circle cx="200" cy="140" r="50" fill="#3b82f6" opacity="0.6"/>
+    
+    <!-- Body -->
+    <ellipse cx="200" cy="240" rx="65" ry="80" fill="#0284c7" opacity="0.5"/>
+    
+    <!-- Highlight -->
+    <circle cx="180" cy="120" r="15" fill="#60a5fa" opacity="0.4"/>
+  </g>
+  
+  <!-- Accent lines -->
+  <line x1="100" y1="200" x2="150" y2="200" stroke="#06b6d4" stroke-width="1" opacity="0.3"/>
+  <line x1="250" y1="200" x2="300" y2="200" stroke="#06b6d4" stroke-width="1" opacity="0.3"/>
+</svg>

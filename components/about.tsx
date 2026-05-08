@@ -721,7 +721,7 @@ export function About() {
                     { label: 'Name', value: 'BHARANI N' },
                     { label: 'Father Name', value: 'S NALLATHAMBI' },
                     { label: 'Mother Name', value: 'N NAGRATHINAM' },
-                    { label: 'DOB', value: '26.10.2005' },
+                    { label: 'DOB', value: '13.07.2005' },
                     { label: 'Birth Place', value: 'NAMAKKAL, TAMIL NADU' },
                     { label: 'Phone No', value: '+91 79045 80284' },
                     { label: 'College Mail ID', value: 'bharanin.23csd@kongu.edu' },
